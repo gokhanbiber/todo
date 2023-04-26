@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* create custom class for specific reason */
+@layer base {
+  .custom-class-name {
+    @apply text-3xl font-bold bg-custom-100 text-gray-200;
+  }
+
+  html {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  h1 {
+    @apply block text-4xl py-6 px-0 font-bold tracking-wide;
+  }
+
+  h2 {
+    @apply block text-3xl my-5 mx-0 font-bold;
+  }
+
+  h3 {
+    @apply block text-2xl my-4 mx-0 font-bold;
+  }
+
+  h4 {
+    @apply block text-xl my-3 mx-0 font-bold;
+  }
+
+  h5 {
+    @apply block text-lg my-2 mx-0 font-bold;
+  }
+
+  h6 {
+    @apply block text-base my-1 mx-0 font-bold;
+  }
+}
