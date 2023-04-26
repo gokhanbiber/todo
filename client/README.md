@@ -1,4 +1,4 @@
-# Demo Nest JS app - Todo
+# Demo React JS app - Todo
 
 ## Description
 
